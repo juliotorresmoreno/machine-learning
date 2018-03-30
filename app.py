@@ -1,5 +1,6 @@
 
-
+from keras.layers import Conv1D, MaxPooling2D
+Conv1D(16, (7), activation='sigmoid', input_shape=(28, 28))
 
 #%%
 import numpy as np
